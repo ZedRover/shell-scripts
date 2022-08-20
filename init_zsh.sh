@@ -12,7 +12,7 @@
 # @raycast.author yu.wang
 
 sh -c "$(curl -fsSL https://raw.fastgit.org/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-bash -c "$(curl --fail --show-error --silent --location https://raw.fastgit.org/zdharma-continuum/zinit/HEAD/scripts/install.sh)"
+bash -c "$(curl --fail --show-error --silent --location https://raw.fastgit.org/ZedRover/shell-scripts/main/install_zinit.sh)"
 echo "zinit light zsh-users/zsh-autosuggestions;zinit light mfaerevaag/wd;
 zinit light agkozak/zsh-z;
 zinit light zdharma-continuum/fast-syntax-highlighting;
